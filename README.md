@@ -1,20 +1,22 @@
-# Chirper Project
+### Twitter clone
 
-This repo is a code-along with the first project in the [React Nanodegree program](https://www.udacity.com/course/react-nanodegree--nd019).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Most of the commits in this repository correspond to videos in the program.
+### Fast start
+```sh
+# Clone the repository
+$ git clone https://github.com/njiyto/react-exam.git
 
-## Project Setup
+# Install dependencies
+$ npm install
 
-* clone the Project - `git@github.com:udacity/reactnd-chirper-app.git`
-* install the dependencies - `npm install`
+# Build app for dev
+$ npm start
+```
 
-## Contributing
-
-Because this is a code-along project and the commits correspond to specific videos in the program, we will not be accepting pull requests.
-
-If you feel like there's a major problem, please open an issue to discuss the problem and potential resolution.
-
-## License
-
-MIT
+### Contribution
+everytime check:
+```
+$ git config user.email
+$ git config user.email 'example@mail'
+$ git remote -v
