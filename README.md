@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Fast start
 ```sh
 # Clone the repository
-$ git clone https://github.com/njiyto/react-exam.git
+$ git clone https://github.com/njiyto/twitter.git
 
 # Install dependencies
 $ npm install

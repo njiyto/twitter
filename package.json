@@ -3,12 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "clone": "^2.1.2",
-    "concurrently": "^5.0.2",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "form-serialize": "^0.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-icons": "^3.8.0",
@@ -20,9 +14,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "concurrently -p --kill-others \"npm:start-web\" \"npm:start-dev\"",
-    "start-web": "react-scripts start",
-    "start-dev": "node ./server/server.js",
+    "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
