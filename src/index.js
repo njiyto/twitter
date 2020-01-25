@@ -7,9 +7,9 @@ import middleware from './middleware';
 import './index.css';
 import App from './components/App';
 
-const store = createStore(reducers, middleware);
+const store = createStore(reducer, middleware);
 
-const Main = (
+const Main = () => (
   <Provider store={store}>
     <App />
   </Provider>

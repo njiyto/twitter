@@ -5,10 +5,10 @@ import { setAuthedUser } from './authedUser';
 
 const AUTHED_ID = 'dan_abramov';
 
-export const handleInitialDatta = () => (
+export const handleInitialData = () => (
   (dispatch) => (
     getInitialData()
-      .then(({ users, tweets })) => {
+      .then(({ users, tweets }) => {
         dispatch(receiveUsers(users));
         dispatch(receiveTweets(tweets));
         dispatch(setAuthedUser(AUTHED_ID));
